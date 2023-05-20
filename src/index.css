@@ -1,13 +1,61 @@
+@font-face {
+  font-family: "BebasNeuePro";
+  font-weight: 750;
+  src: url("/public/fonts/bebasneuepro-semiexpandedbolditalic-webfont.woff2")
+      format("woff2"),
+    url("/public/fonts/bebasneuepro-semiexpandedbolditalic-webfont.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "BebasNeuePro";
+  font-weight: 800;
+  src: url("/public/fonts/bebasneuepro-expandedextrabold-webfont.woff2")
+      format("woff2"),
+    url("/public/fonts/bebasneuepro-expandedbold-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "BebasNeuePro";
+  font-weight: 700;
+  src: url("/public/fonts/bebasneuepro-expandedbold-webfont.woff2")
+      format("woff2"),
+    url("/public/fonts/bebasneuepro-expandedbold-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "BebasNeuePro";
+  font-weight: 600;
+  src: url("/public/fonts/bebasneuepro-expandedregular-webfont.woff2")
+      format("woff2"),
+    url("/public/fonts/bebasneuepro-expandedregular-webfont.woff")
+      format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BebasNeuePro", sans-serif;
+  background: 202020;
+  color: #f9f9f9;
+}
+
+button {
+  background: transparent;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
