@@ -16,7 +16,7 @@ function Home() {
 }
 
 const Background = styled.div`
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   padding: 60px;
   background: #202020;
@@ -24,12 +24,17 @@ const Background = styled.div`
   @media (max-width: 1440px) {
     padding: 45px;
   }
+  @media (max-width: 980px) {
+    height: auto;
+  }
 `;
 
 const Wrap = styled.div`
   height: 100%;
   width: 100%;
   max-width: 1440px;
+  display: grid;
+  place-items: center;
   margin: auto;
 `;
 
