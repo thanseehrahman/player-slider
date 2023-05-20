@@ -580,7 +580,7 @@ const PrevSlide = styled(PrevCard)`
   display: none;
 
   @media (max-width: 768px) {
-    display: block;
+    display: none;
   }
 `;
 
