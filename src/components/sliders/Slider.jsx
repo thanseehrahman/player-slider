@@ -311,6 +311,10 @@ const ToggleStats = styled.button`
   visibility: ${(props) => (props.hover === 1 ? "visible" : "hidden")};
   transition: all 0.3s ease-in-out;
 
+  @media (max-width: 768px) {
+    opacity: 1;
+    visibility: visible;
+  }
   @media (max-width: 480px) {
     font-size: 14px;
   }
