@@ -451,6 +451,10 @@ const Name = styled.h1`
 const Tag = styled.div`
   display: flex;
   gap: 10px;
+
+  @media (max-width: 360px) {
+    flex-direction: column;
+  }
 `;
 
 const Badge = styled.div`
