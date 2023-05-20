@@ -53,6 +53,9 @@ function Slider() {
   return (
     <Container>
       <Left>
+        <PrevSlide onClick={prev}>
+          <Icon src="/images/icons/left-large.svg" />
+        </PrevSlide>
         <Slide>
           <PlayerMask onMouseEnter={active ? null : handleHover}>
             <GradientOverlay index={length + 1} />
@@ -109,6 +112,9 @@ function Slider() {
             </Next>
           </Bottom>
         </Slide>
+        <NextSlide onClick={next}>
+          <Icon src="/images/icons/right-large.svg" />
+        </NextSlide>
       </Left>
       <Right>
         <PrevCard onClick={prev}>
@@ -356,6 +362,7 @@ const Bottom = styled.div`
 const Prev = styled.button``;
 
 const Icon = styled.img`
+  width: 100%;
   display: inline-block;
 `;
 
@@ -567,5 +574,16 @@ const ToggleStatsLarge = styled(ToggleStats)`
 `;
 
 const NextCard = styled(PrevCard)``;
+
+const PrevSlide = styled(PrevCard)`
+  width: 30px;
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+`;
+
+const NextSlide = styled(PrevSlide)``;
 
 export default Slider;
