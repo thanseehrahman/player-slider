@@ -191,10 +191,6 @@ const Slide = styled.div`
   display: flex;
   flex-direction: column;
   gap: 8px;
-
-  @media (max-width: 480px) {
-    max-width: 260px;
-  }
 `;
 
 const PlayerMask = styled.div`
