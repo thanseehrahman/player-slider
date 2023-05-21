@@ -34,7 +34,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "BebasNeuePro", sans-serif;
-  background: 202020;
   color: #f9f9f9;
 }
 
@@ -53,6 +52,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: #202020;
 }
 
 code {
