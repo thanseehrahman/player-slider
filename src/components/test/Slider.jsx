@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import playersJSON from "../../data.json";
 import { useState } from "react";
 
@@ -8,6 +8,14 @@ function Slider() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const currentPlayer = players[currentIndex];
+
+  useEffect(() => {
+    const query = players.filter(
+      (player, index) =>
+        player.imageFacing === "Right" && player.skills === "Right"
+    );
+    console.log(query);
+  }, [players]);
 
   const prev = () => {
     if (currentIndex > 0) {

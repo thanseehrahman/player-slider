@@ -24,9 +24,6 @@ const Background = styled.div`
   @media (max-width: 1440px) {
     padding: 45px;
   }
-  @media (max-width: 980px) {
-    height: auto;
-  }
 `;
 
 const Wrap = styled.div`

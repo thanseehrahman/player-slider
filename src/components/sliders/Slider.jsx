@@ -97,6 +97,19 @@ function Slider() {
               </Close>
             </Controls>
             <Ring src="/images/objects/ring.svg" index={length + 1} />
+            <MobileCard index={length + 1}>
+              <MobileName>{player.name}</MobileName>
+              <MobileTag>
+                <MobileBadge>
+                  <MobileValue>{player.country}</MobileValue>
+                  <Flag src={player.flagURL} />
+                </MobileBadge>
+                <MobileBadge>
+                  <MobileValue>{player.position}</MobileValue>
+                  <MobileLabel />
+                </MobileBadge>
+              </MobileTag>
+            </MobileCard>
           </PlayerMask>
           <Bottom>
             <Prev onClick={prev}>
@@ -275,7 +288,7 @@ const TopLine = styled(LeftLine)`
   top: 0;
   transition-delay: 0.3s;
 
-  @media (max-width: 480px) {
+  @media (max-width: 360px) {
     width: ${(props) => (props.hover === 1 ? 70 : 0)}px;
   }
 `;
@@ -290,6 +303,9 @@ const Value = styled.h5`
   transition-delay: ${(props) => (props.hover === 1 ? 0.6 : 0)}s;
 
   @media (max-width: 480px) {
+    font-size: 28px;
+  }
+  @media (max-width: 360px) {
     font-size: 20px;
   }
 `;
@@ -317,7 +333,7 @@ const ToggleStats = styled.button`
     opacity: 1;
     visibility: visible;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 360px) {
     font-size: 14px;
   }
 `;
@@ -354,7 +370,7 @@ const Bottom = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 480px) {
+  @media (max-width: 360px) {
     height: 40px;
   }
 `;
@@ -380,7 +396,7 @@ const Weight = styled.div`
   transition: all 0.3s ease-in-out;
   transition-delay: ${(props) => (props.hover === 1 ? 0 : 0.6)}s;
 
-  @media (max-width: 480px) {
+  @media (max-width: 360px) {
     width: 60px;
   }
 `;
@@ -394,7 +410,7 @@ const Right = styled.div`
 `;
 
 const PrevCard = styled(Prev)`
-  @media (max-width: 768px) {
+  @media (max-width: 980px) {
     display: none;
   }
 `;
@@ -419,7 +435,11 @@ const Card = styled.div`
     min-width: 0;
     padding: 28px;
   }
+  @media (max-width: 480px) {
+    display: none;
+  }
 `;
+
 const Top = styled.div``;
 
 const Head = styled.div`
@@ -431,16 +451,9 @@ const Head = styled.div`
   @media (max-width: 768px) {
     margin-bottom: 0;
   }
-  @media (max-width: 480px) {
-    justify-content: center;
-  }
 `;
 
-const Title = styled.div`
-  @media (max-width: 480px) {
-    text-align: center;
-  }
-`;
+const Title = styled.div``;
 
 const Name = styled.h1`
   font-size: 48px;
@@ -450,18 +463,11 @@ const Name = styled.h1`
   @media (max-width: 768px) {
     font-size: 32px;
   }
-  @media (max-width: 480px) {
-    font-size: 28px;
-  }
 `;
 
 const Tag = styled.div`
   display: flex;
   gap: 10px;
-
-  @media (max-width: 360px) {
-    flex-direction: column;
-  }
 `;
 
 const Badge = styled.div`
@@ -471,10 +477,6 @@ const Badge = styled.div`
   gap: 10px;
   background: #1f253c;
   border-radius: 8px;
-
-  @media (max-width: 480px) {
-    padding: 8px 10px;
-  }
 `;
 
 const TagValue = styled.h5`
@@ -510,9 +512,6 @@ const Circle = styled.div`
   @media (max-width: 768px) {
     height: 58px;
     min-width: 58px;
-  }
-  @media (max-width: 480px) {
-    display: none;
   }
 `;
 
@@ -585,5 +584,47 @@ const PrevSlide = styled(PrevCard)`
 `;
 
 const NextSlide = styled(PrevSlide)``;
+
+const MobileCard = styled.div`
+  width: 100%;
+  padding: 12px 32px;
+  position: absolute;
+  bottom: 46px;
+  display: none;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(32, 32, 32, 0.14) 51.04%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  text-align: center;
+  z-index: ${(props) => props.index};
+
+  @media (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+const MobileName = styled(Name)`
+  font-size: 42px;
+`;
+
+const MobileTag = styled(Tag)`
+  gap: 22px;
+`;
+
+const MobileBadge = styled(Badge)`
+  padding: 0;
+  background: transparent;
+`;
+
+const MobileValue = styled(TagValue)`
+  font-size: 20px;
+`;
+
+const MobileLabel = styled(Label)``;
 
 export default Slider;
