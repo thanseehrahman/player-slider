@@ -16,7 +16,6 @@ function Home() {
 }
 
 const Background = styled.div`
-  height: 100vh;
   width: 100%;
   padding: 60px;
   background: #202020;
@@ -24,8 +23,8 @@ const Background = styled.div`
   @media (max-width: 1440px) {
     padding: 45px;
   }
-  @media (max-width: 980px) {
-    height: auto;
+  @media (max-width: 480px) {
+    height: 100vh;
   }
 `;
 
