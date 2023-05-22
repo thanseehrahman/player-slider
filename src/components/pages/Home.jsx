@@ -16,8 +16,11 @@ function Home() {
 }
 
 const Background = styled.div`
+  min-height: 100vh;
   width: 100%;
   padding: 60px;
+  display: grid;
+  place-items: center;
   background: #202020;
 
   @media (max-width: 1440px) {
