@@ -67,8 +67,9 @@ function Slider() {
               >
                 <Shadow
                   opacity={
-                    index > currentIndex ? 0.4 * (index - currentIndex) : 0
+                    index > currentIndex ? 0.6 * (index - currentIndex) : 0
                   }
+                  index={length + 1}
                 />
                 <Hero src={player.heroURL} />
               </Player>
@@ -170,7 +171,7 @@ function Slider() {
                 </StatsValue>
               </Item>
             </StatsGrid>
-            <Description>{player.description}</Description>
+            <Description>{player.description[0]}</Description>
           </Top>
           <ToggleStatsLarge
             onClick={() => setHover(!hover)}
@@ -245,6 +246,7 @@ const Shadow = styled.div`
   top: 0;
   left: 0;
   background: rgba(32, 32, 32, ${(props) => props.opacity});
+  z-index: ${(props) => props.index};
   transition: all 0.6s ease-in-out;
 `;
 

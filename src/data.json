@@ -11,8 +11,13 @@
     "skills": "Right",
     "height": "1.78 m",
     "weight": "75 kg",
-    "imageFacing": "Left",
-    "description": "Born in the capital in 1998 and raised in a sporting family in the Parisian suburb of Bondy, Kylian Mbappé first joined the French National Football Institution at Clairefontaine before moving to Monaco’s academy. At the age of 17, the prodigy exploded onto the European scene and became a Ligue 1 champion in 2017."
+    "heroFacing": "Left",
+    "description": [
+      "Born in the capital in 1998 and raised in a sporting family in the Parisian suburb of Bondy, Kylian Mbappé first joined the French National Football Institution at Clairefontaine before moving to Monaco’s academy. At the age of 17, the prodigy exploded onto the European scene and became a Ligue 1 champion in 2017.",
+      "Signed by Paris Saint-Germain just a few weeks later, the man that led Les Bleus to World Cup glory in 2018 quickly became a key player in Rouge et Bleu.",
+      "The third-highest goal scorer in club history, the Paris No.7 has developed an unquenchable thirst for records. He has finished as the league’s top scorer four times and won the Ligue 1 Player of the Year award three times. During a remarkable 2021/22 season, he moved into second place in the Club’s all-time scoring chart, and finished the campaign as the player with the most goal involvements across Europe (42).",
+      "Despite being coveted by all of European football, ‘KM7’ opted to sign a new contract to continue his love affair with the City of Light."
+    ]
   },
   {
     "id": "2",
@@ -26,8 +31,11 @@
     "skills": "Right",
     "height": "1.75 m",
     "weight": "68 kg",
-    "imageFacing": "Left",
-    "description": "A genuine footballing superstar, Neymar Jr quickly became a sensation in his home country of Brazil. He played 230 professional games for his first club Santos FC, scoring 138 goals before moving to Barcelona in Europe, where he scored an impressive 105 goals in 186 games. Neymar Jr won the Champions League in 2015 and the Olympic games in Rio in 2016, alongside his current teammates Marquinhos and Rafinha."
+    "heroFacing": "Left",
+    "description": [
+      "A genuine footballing superstar, Neymar Jr quickly became a sensation in his home country of Brazil. He played 230 professional games for his first club Santos FC, scoring 138 goals before moving to Barcelona in Europe, where he scored an impressive 105 goals in 186 games. Neymar Jr won the Champions League in 2015 and the Olympic games in Rio in 2016, alongside his current teammates Marquinhos and Rafinha.",
+      "In 2017, the Brazilian signed for Paris Saint-Germain before then teaming up with another high-powered new arrival, Kylian Mbappé, determined to write history. A technical leader, a dribbling genius, an unpredictable detonator, the number 10 quickly sparked in the City of Light, helping the capital club to the Champions League final in the summer of 2020."
+    ]
   },
   {
     "id": "3",
@@ -41,8 +49,13 @@
     "skills": "Left",
     "height": "1.7 m",
     "weight": "72 kg",
-    "imageFacing": "Right",
-    "description": "It’s hard to find the words to describe a man that the football world knows simply as ‘The GOAT’. Born in Rosario, the Argentine crossed the Atlantic at just 13 years of age to join FC Barcelona. 21 years later, the famous left foot has dribbled its way to Paris Saint-Germain, for the biggest challenge of his career."
+    "heroFacing": "Right",
+    "description": [
+      "It’s hard to find the words to describe a man that the football world knows simply as ‘The GOAT’. Born in Rosario, the Argentine crossed the Atlantic at just 13 years of age to join FC Barcelona. 21 years later, the famous left foot has dribbled its way to Paris Saint-Germain, for the biggest challenge of his career.",
+      "In between, ‘Leo’ has scaled all the heights. Messi has won 4 Champions League, 10 Liga titles, 7 Copa del Rey, 6 European Golden Boots, an Olympic gold medal and lifted the Copa America with Argentina, just before landing in the French capital.",
+      "The all-time leading goal scorer for his country, the top scorer in the history of Spanish football, the top assist provider in the 21st century, Messi has broken all the records, but above all, inspired an entire generation of footballers around the world with his genius.",
+      "A living legend, ‘La Pulga’ has won seven Ballons d’Or, and history will remember his first Paris goal in September 2021: a masterpiece of a strike against Manchester City to send the Parc delirious."
+    ]
   },
   {
     "id": "4",
@@ -56,8 +69,12 @@
     "skills": "Right",
     "height": "1.89 m",
     "weight": "",
-    "imageFacing": "Left",
-    "description": "It’s in the capital of Champagne, Reims, that Hugo was born, and he started playing in the city’s suburbs aged 5 with Cormontreuil FC. He quickly caught the eye of his hometown’s major club, and was drafted into the Stade de Reims youth academy aged 11. The rangy forward quickly rose through the ranks: he scored five goals for the reserve team at 17 and soon signed his first professional contract."
+    "heroFacing": "Left",
+    "description": [
+      "It’s in the capital of Champagne, Reims, that Hugo was born, and he started playing in the city’s suburbs aged 5 with Cormontreuil FC. He quickly caught the eye of his hometown’s major club, and was drafted into the Stade de Reims youth academy aged 11. The rangy forward quickly rose through the ranks: he scored five goals for the reserve team at 17 and soon signed his first professional contract.",
+      "His Ligue 1 debut followed, and – after a loan spell at Danish club Vejle Boldklub – he returned to reinforce the Reims attack, becoming the youngest player to net 10 top-flight goals in the last half-century.",
+      "Technical and physical, Ekitike has developed into one of France’s most promising goalgetters. He signed for the capital club through to July 2022 in a loan deal that includes a purchase option."
+    ]
   },
   {
     "id": "5",
@@ -71,8 +88,11 @@
     "skills": "Right",
     "height": "1.65 m",
     "weight": "60 kg",
-    "imageFacing": "Left",
-    "description": "A gem unearthed in his native city of Pescara, where he played in the Italian second division, he arrived in the capital in 2012 as a rising star of the European game. Marco Verratti quickly established himself as a leader on and off the field. A tireless midfielder, a hard worker, Verratti is a true pillar of the club and a darling of the supporters."
+    "heroFacing": "Left",
+    "description": [
+      "A gem unearthed in his native city of Pescara, where he played in the Italian second division, he arrived in the capital in 2012 as a rising star of the European game. Marco Verratti quickly established himself as a leader on and off the field. A tireless midfielder, a hard worker, Verratti is a true pillar of the club and a darling of the supporters.",
+      "Beyond his talent and audacity, the Italian international has become one of the players to make the most appearances in the history of Paris Saint-Germain, and has played more European matches than anybody else in the Rouge et Bleu shirt. Following the Club’s 2021/22 title win, he became the record-holder of the most Ligue 1 winner’s medals with eight."
+    ]
   },
   {
     "id": "6",
@@ -86,8 +106,12 @@
     "skills": "",
     "height": "1.89 m",
     "weight": "70 kg",
-    "imageFacing": "Left",
-    "description": "It was in his home town of Los Palacios y Villafranca, in the province of Andalusia, that the young Fabian discovered football. His appetite for football led him to the Real Betis youth academy at the age of eight, where he honed his skills as a midfielder at all youth levels."
+    "heroFacing": "Left",
+    "description": [
+      "It was in his home town of Los Palacios y Villafranca, in the province of Andalusia, that the young Fabian discovered football. His appetite for football led him to the Real Betis youth academy at the age of eight, where he honed his skills as a midfielder at all youth levels.",
+      "In 2014, having just turned 18, he joined the Spanish club's reserves, with whom he would be crowned Spanish D2 champion. He made his debut for the first team the following summer, before going on loan to Elche CF during the winter to practise his skills. Napoli's scouts then made a move for the tall (1.89m) creative midfielder to join the Serie A side. Under Ancelotti and then Gattuso, Ruiz became an automatic starter, which sent him straight to the Spanish national team (15 caps).",
+      "With the Azzurri, the regista eventually made no less than 166 appearances, including 32 at European level (22 goals, 15 assists), before deciding to cross the Alps for a new challenge. It was in the summer of 2022 that the 26-year-old Andalusian moved to Paris Saint-Germain for the big move."
+    ]
   },
   {
     "id": "7",
@@ -101,8 +125,12 @@
     "skills": "Right",
     "height": "1.88 m",
     "weight": "83 kg",
-    "imageFacing": "Right",
-    "description": "Bissau native Danilo came through the youth ranks at Estoril and then Benfica in Portugal, before moving to Parma in Italy to sign his first professional contract. Three years later, and after loan spells with Aris (Greece) and Roda JC (Netherlands) he returned to Portugal with Club Sport Maritimo in Funchal and finally fulfilled his immense potential."
+    "heroFacing": "Right",
+    "description": [
+      "Bissau native Danilo came through the youth ranks at Estoril and then Benfica in Portugal, before moving to Parma in Italy to sign his first professional contract. Three years later, and after loan spells with Aris (Greece) and Roda JC (Netherlands) he returned to Portugal with Club Sport Maritimo in Funchal and finally fulfilled his immense potential.",
+      "Fifty-four matches, and four goals later, he was signed by FC Porto in July 2015. Over the next five years with Porto - with whom he became captain - he was twice crowned champion of Portugal and also won a Portuguese Cup and Supercup, while with the Portugal national team he won Euro 2016 as well as the most recent UEFA Nations League.",
+      "After arriving on the very last day of the 2020 summer transfer window on loan, Danilo’s commitment, humility and professionalism shone through, and the move was made permanent in May 2021. Twelve months later, he played his part in the Club’s 10th Ligue 1 title win."
+    ]
   },
   {
     "id": "8",
@@ -116,8 +144,12 @@
     "skills": "Right",
     "height": "1.72 m",
     "weight": "64 kg",
-    "imageFacing": "Straight",
-    "description": "Vitor Machado Ferreira, nicknamed Vitinha, was born in Santo Tirso in the Porto suburbs, and joined his hometown club’s youth academy aged just 11. He helped them to a UEFA Youth League triumph in 2019, and was named Player of the Toulon Tournament and reached the U19 EURO final with Portugal."
+    "heroFacing": "Straight",
+    "description": [
+      "Vitor Machado Ferreira, nicknamed Vitinha, was born in Santo Tirso in the Porto suburbs, and joined his hometown club’s youth academy aged just 11. He helped them to a UEFA Youth League triumph in 2019, and was named Player of the Toulon Tournament and reached the U19 EURO final with Portugal.",
+      "After making his first-team debut for Porto, he joined English Premier League side Wolverhampton Wanderers on loan before returning to become a key part of Sergio Conceição’s side. He was integral to their league-cup double last season, and earned himself a call-up to the senior Portugal team.",
+      "Named the Portuguese league's Young Player of the Year, he joined Paris Saint-Germain on a five-year deal, becoming — aged just 22 — the first signing of the 2022/23 summer transfer window."
+    ]
   },
   {
     "id": "9",
@@ -131,8 +163,13 @@
     "skills": "",
     "height": "1.76 m",
     "weight": "70 kg",
-    "imageFacing": "Left",
-    "description": "Renato Sanches was born in Lisbon to Cape Verdean parents and started playing football at a very early age. At just nine years old, the wonderkid joined Benfica's youth academy and worked his way up through the ranks until he signed his first professional contract when he came of age. That year, the 'Golden Boy' broke all the records for being the youngest scorer in the 21st century and the youngest player in the European Cup, and played an active role in the Lisbon club's League and Cup double. He was rightly voted the league's best young player."
+    "heroFacing": "Left",
+    "description": [
+      "Renato Sanches was born in Lisbon to Cape Verdean parents and started playing football at a very early age. At just nine years old, the wonderkid joined Benfica's youth academy and worked his way up through the ranks until he signed his first professional contract when he came of age. That year, the 'Golden Boy' broke all the records for being the youngest scorer in the 21st century and the youngest player in the European Cup, and played an active role in the Lisbon club's League and Cup double. He was rightly voted the league's best young player.",
+      "His rise to prominence took him all the way to the Portuguese national team, with whom he won Euro 2016 and the awards for best young player, youngest goalscorer and youngest winner in the history of the competition.",
+      "These performances earned him a move to Bayern Munich, where he won two league titles, a cup and a Supercup in Germany before a loan spell with Swansea.",
+      "As a sign of his resilience, Renato gave a new lease of life to his career by joining Christophe Galtier's LOSC in 2019, with whom he won the French league title. A coach he was reunited with when he left the Flanders capital for the French one in the summer of 2022."
+    ]
   },
   {
     "id": "10",
@@ -146,8 +183,12 @@
     "skills": "",
     "height": "1.8 m",
     "weight": "76 kg",
-    "imageFacing": "Left",
-    "description": "He was born in Valencia, Spain's third largest city, and it was on the Mediterranean coast that the young boy first kicked a ball. He started in the small village of Bonrepos i Mirambell, then moved to the big city's academy, from the age of 7. At Valencia FC's youth academy, the local boy rose through the ranks, from the youth teams to the reserves, the Mestalla, before Cesare Prendelli threw him into the deep end of La Liga at the age of 19."
+    "heroFacing": "Left",
+    "description": [
+      "He was born in Valencia, Spain's third largest city, and it was on the Mediterranean coast that the young boy first kicked a ball. He started in the small village of Bonrepos i Mirambell, then moved to the big city's academy, from the age of 7. At Valencia FC's youth academy, the local boy rose through the ranks, from the youth teams to the reserves, the Mestalla, before Cesare Prendelli threw him into the deep end of La Liga at the age of 19.",
+      "It was the start of a long spell, during which Soler made 226 appearances, including 18 in Europe, scoring 36 goals and providing 31 assists. A journey that also saw him called up to Spain's youth teams (with whom he won the Euro 2019 and took silver at the Tokyo Olympics) and then to La Roja from 2021.",
+      "Capable of playing in all attacking roles, the 25-year-old has demonstrated his vision, his playmaking ability and his leadership over the years. These qualities caught the eye of Paris Saint-Germain, who snapped up the Valencia maestro in the summer of 2022."
+    ]
   },
   {
     "id": "11",
@@ -161,8 +202,13 @@
     "skills": "Right",
     "height": "1.81 m",
     "weight": "73 kg",
-    "imageFacing": "Straight",
-    "description": "Born in the Spanish capital to Moroccan parents, Achraf Hakimi joined the Real Madrid Academy at just 7 years old. He progressed through the age groups before he was given his first chance with the first team at 18 years old by Zinedine Zidane."
+    "heroFacing": "Straight",
+    "description": [
+      "Born in the Spanish capital to Moroccan parents, Achraf Hakimi joined the Real Madrid Academy at just 7 years old. He progressed through the age groups before he was given his first chance with the first team at 18 years old by Zinedine Zidane.",
+      "After winning the Champions League, it was at Borussia Dortmund that he plied his trade for two years, continuing his development as a right back and cementing his place in the starting eleven. During his second season in Germany, the defender ended the campaign with 9 goals and 10 assists to his name just in the Bundesliga, and several incredible moments, including his brace against Inter Milan in the Champions League. It didn’t take much to win over Antonio Conte, who bought the man who had terrorised his side the following summer.",
+      "In Italy, he was directly involved in another 15 goals and helped his side to their first Serie A title in 10 years. A sixth trophy for the 22 year old, who has already been named as the best Moroccan youngster of his generation.",
+      "Hakimi was recruited by Paris Saint-Germain in the summer of 2021."
+    ]
   },
   {
     "id": "12",
@@ -176,8 +222,12 @@
     "skills": "Left",
     "height": "1.82 m",
     "weight": "79 kg",
-    "imageFacing": "Right",
-    "description": "Pure product of the Paris Academy, Presnel Kimpembe took his first steps in football with AS Éragny (Val-d’Oise), before joining the club from the capital in 2005, at just ten years old."
+    "heroFacing": "Right",
+    "description": [
+      "Pure product of the Paris Academy, Presnel Kimpembe took his first steps in football with AS Éragny (Val-d’Oise), before joining the club from the capital in 2005, at just ten years old.",
+      "Playing in each of the age groups on his way up to the Reserves, ‘Presko’ started his professional career during Laurent Blanc’s time in charge. France discovered his joviality over the summer of 2018, during which he was crowned World Champion with Didier Deschamps’ Les Bleus.",
+      "With Paris Saint-Germain, he has made his name in the centre of the defence, with the club emblem bolted to his heart."
+    ]
   },
   {
     "id": "13",
@@ -191,7 +241,12 @@
     "skills": "Right",
     "height": "1.84 m",
     "weight": "82 kg",
-    "imageFacing": "Right",
-    "description": "Born and raised in Seville, it was at Real Madrid, the club for whom he signed at 16 years old, that Sergio Ramos truly earned his status as a footballing legend."
+    "heroFacing": "Right",
+    "description": [
+      "Born and raised in Seville, it was at Real Madrid, the club for whom he signed at 16 years old, that Sergio Ramos truly earned his status as a footballing legend.",
+      "The man who is now recognised as one of the best defenders in the history of the game, lifted 22 trophies, including five La Liga and four Champions League titles during his time in the Spanish capital. In total, he played 671 matches and found the back of the net on 101 occasions, an almost unheard of feat for a defender.",
+      "The same can be said for his record with the Spanish national side, with whom he won Euro 2008, World Cup 2010 and Euro 2012, and scored 23 goals. 15 years after his international debut, he is now the most capped Spanish player in history (180 caps).",
+      "Arriving in Paris in the summer of 2021, “SR4” has arrived in the capital to bring his experience, but also his competitive spirit, epitomised by his sense of sacrifice and a hunger to win."
+    ]
   }
 ]
